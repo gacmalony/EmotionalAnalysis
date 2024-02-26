@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Main CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mainCardView"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#5F5F5C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:elevation="4dp">
+
+        <!-- Horizontal layout for Image and Texts -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Vertical layout for Texts -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!-- Small CardView 1 -->
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="#0D0110"
+                    android:id="@+id/smallCardView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="8dp"
+                    android:elevation="2dp">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_margin="3dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DEFAULT" />
+
+                </androidx.cardview.widget.CardView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <!-- Small CardView 2 -->
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="#120115"
+                    android:id="@+id/smallCardView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="8dp"
+                    android:elevation="2dp">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_margin="3dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DEFAULT" />
+
+                </androidx.cardview.widget.CardView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <!-- Small CardView 3 -->
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="#0F0111"
+                    android:id="@+id/smallCardView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="8dp"
+                    android:elevation="2dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_margin="3dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DEFAULT"  />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <!-- Image View -->
+            <ImageView
+                android:src="@drawable/ic_launcher_background"
+                android:id="@+id/imageViewquotescards"
+                android:layout_width="170dp"
+                android:layout_marginEnd="6dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

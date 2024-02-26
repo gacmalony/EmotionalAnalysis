@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "289417657034",
+    "project_id": "emotions-e40fb",
+    "storage_bucket": "emotions-e40fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289417657034:android:8d51c6342f4616f3859233",
+        "android_client_info": {
+          "package_name": "com.example.emotionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUo_MHv3yKUv8ewXyj5gPa0hMM6sbeOx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
